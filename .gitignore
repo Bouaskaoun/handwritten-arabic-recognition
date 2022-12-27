@@ -1,3 +1,7 @@
-/isolated_alphabets_per_alphabet
-
 .ipynb_checkpoints
+
+handwritten_arabic_letters.csv
+
+HandwrittenModel.joblib
+
+/isolated_alphabets_per_alphabet
