@@ -41,6 +41,10 @@ The frontend will be available at **http://localhost:8501** and the API will be 
 - The dataset was collected anonymously from 82 different users. Each user was asked to write each alphabet 10 times.
 - A userid uniquely but anonymously identifies the writer of each alphabet. In total, the dataset consists of 53199 alphabet images.
 
+## Preprocessing
+
+The images are preprocessed to extract features that can be used as input to the classification model. This includes resizing the images to a fixed size, converting the images to grayscale, and applying image processing techniques such as thresholding and normalization.
+
 ## Model
 
 The model used in this project is a Random Forest classifier, trained on the dataset mentioned above. The model was trained using scikit-learn's implementation of the
